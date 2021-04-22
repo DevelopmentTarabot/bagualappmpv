@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5525" translatesAutoresizingMaskIntoConstraints="NO" id="eKS-7n-4Rf">
+                                <rect key="frame" x="102" y="477" width="224" height="449"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO BAGUAL TRANSPARENTE ROSA (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Lco-cd-QQw">
+                                <rect key="frame" x="40" y="66" width="349" height="253"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Lco-cd-QQw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="22" id="1au-VE-GuD"/>
+                            <constraint firstItem="eKS-7n-4Rf" firstAttribute="top" secondItem="Lco-cd-QQw" secondAttribute="bottom" constant="158" id="DBy-RQ-rFu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lco-cd-QQw" secondAttribute="trailing" constant="19" id="IN2-d7-qr0"/>
+                            <constraint firstItem="eKS-7n-4Rf" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="102" id="Qeb-p7-Pra"/>
+                            <constraint firstItem="eKS-7n-4Rf" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="433" id="UNf-U0-GUJ"/>
+                            <constraint firstItem="Lco-cd-QQw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="20" id="Vca-Yw-Aqe"/>
+                            <constraint firstAttribute="bottom" secondItem="eKS-7n-4Rf" secondAttribute="bottom" id="ik1-I5-WnO"/>
+                            <constraint firstAttribute="trailing" secondItem="eKS-7n-4Rf" secondAttribute="trailing" constant="102" id="oMX-gY-MMy"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51.86915887850467" y="374.51403887688986"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_5525" width="885" height="590.33331298828125"/>
+        <image name="LOGO BAGUAL TRANSPARENTE ROSA (1)" width="341.33334350585938" height="256"/>
+    </resources>
+</document>

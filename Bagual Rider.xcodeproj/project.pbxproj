@@ -1,0 +1,1109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180924821EF33DE2007CF38F /* MulticolorPolyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180924811EF33DE2007CF38F /* MulticolorPolyline.swift */; };
+		18350CE81E882A860054E1C6 /* StoryboardSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18350CE71E882A860054E1C6 /* StoryboardSupport.swift */; };
+		187AF99D1EF2F78500C2B8E7 /* UnitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187AF99C1EF2F78500C2B8E7 /* UnitExtensions.swift */; };
+		187AF9A71EF2FC1200C2B8E7 /* FormatDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187AF9A61EF2FC1200C2B8E7 /* FormatDisplay.swift */; };
+		187AF9A91EF3170700C2B8E7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187AF9A81EF3170700C2B8E7 /* LocationManager.swift */; };
+		18888DC31E7F0FA80038A3AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18888DC21E7F0FA80038A3AF /* AppDelegate.swift */; };
+		18888DC81E7F0FA80038A3AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18888DC61E7F0FA80038A3AF /* Main.storyboard */; };
+		18888DCB1E7F0FA80038A3AF /* MoonRunner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18888DC91E7F0FA80038A3AF /* MoonRunner.xcdatamodeld */; };
+		18888DCD1E7F0FA80038A3AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18888DCC1E7F0FA80038A3AF /* Assets.xcassets */; };
+		18888DD01E7F0FA80038A3AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18888DCE1E7F0FA80038A3AF /* LaunchScreen.storyboard */; };
+		18888DD91E7F1D940038A3AF /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18888DD81E7F1D940038A3AF /* CoreDataStack.swift */; };
+		18CF26EA1E80265F0097F88C /* badges.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18CF26E91E80265F0097F88C /* badges.txt */; };
+		18CF26ED1E80290C0097F88C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF26EC1E80290C0097F88C /* HomeViewController.swift */; };
+		18CF26EF1E80291E0097F88C /* NewRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF26EE1E80291E0097F88C /* NewRunViewController.swift */; };
+		18CF26F11E80292C0097F88C /* RunDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF26F01E80292C0097F88C /* RunDetailsViewController.swift */; };
+		3A099CF125B9BE60008530AE /* MapRun.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A099CF025B9BE60008530AE /* MapRun.storyboard */; };
+		3A2378D825A4972200D48F44 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2378D725A4972200D48F44 /* Constants.swift */; };
+		3A2F308125C6F5C0009EB948 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2F308025C6F5C0009EB948 /* Utilities.swift */; };
+		3A4DBD9825DD4F5C004BD0DE /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DBD9725DD4F5C004BD0DE /* ViewViewController.swift */; };
+		3A4DBD9B25DD4F90004BD0DE /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4DBD9A25DD4F90004BD0DE /* EntryViewController.swift */; };
+		3A50800025C92F630094A501 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A507FFF25C92F630094A501 /* CoreLocation.framework */; };
+		3A50800225C92F8F0094A501 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A50800125C92F8F0094A501 /* MapKit.framework */; };
+		3A50800825C94A350094A501 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50800725C94A350094A501 /* SocialViewController.swift */; };
+		3A622B2F25A45FEC006FDEDE /* VViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A622B2E25A45FEC006FDEDE /* VViewController.swift */; };
+		3A622B3225A46381006FDEDE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A622B3125A46381006FDEDE /* SignUpViewController.swift */; };
+		3A622B3525A463E7006FDEDE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A622B3425A463E7006FDEDE /* LoginViewController.swift */; };
+		3A622B3825A46462006FDEDE /* HomeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A622B3725A46462006FDEDE /* HomeeViewController.swift */; };
+		3A622B4325A48B86006FDEDE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A622B4225A48B86006FDEDE /* GoogleService-Info.plist */; };
+		3A7B41902612FB9F00E5FA90 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B418F2612FB9F00E5FA90 /* ConversationViewController.swift */; };
+		3A7B41942612FF0E00E5FA90 /* RollnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B41932612FF0E00E5FA90 /* RollnViewController.swift */; };
+		3A7B41982612FF8300E5FA90 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B41972612FF8300E5FA90 /* RegisterViewController.swift */; };
+		3A7B419C2612FFEC00E5FA90 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B419B2612FFEC00E5FA90 /* PhotoViewerViewController.swift */; };
+		3A7B419F2613008100E5FA90 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B419E2613008100E5FA90 /* VideoPlayerViewController.swift */; };
+		3A7B41A42613013400E5FA90 /* newconverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B41A32613013400E5FA90 /* newconverViewController.swift */; };
+		3A7B41A82613018B00E5FA90 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7B41A72613018B00E5FA90 /* UserViewController.swift */; };
+		3A81014B2619C8D6001E9A65 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8101492619C8D6001E9A65 /* Interface.storyboard */; };
+		3A81014D2619C8DD001E9A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A81014C2619C8DD001E9A65 /* Assets.xcassets */; };
+		3A8101542619C8DD001E9A65 /* BagualWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3A8101532619C8DD001E9A65 /* BagualWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A8101592619C8DD001E9A65 /* SpeedySlothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8101582619C8DD001E9A65 /* SpeedySlothApp.swift */; };
+		3A81015B2619C8DD001E9A65 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A81015A2619C8DD001E9A65 /* ExtensionDelegate.swift */; };
+		3A81015D2619C8DD001E9A65 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A81015C2619C8DD001E9A65 /* NotificationController.swift */; };
+		3A81015F2619C8DD001E9A65 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A81015E2619C8DD001E9A65 /* ComplicationController.swift */; };
+		3A8101612619C8E0001E9A65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8101602619C8E0001E9A65 /* Assets.xcassets */; };
+		3A8101662619C8E0001E9A65 /* BagualWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3A8101472619C8D6001E9A65 /* BagualWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A82D5E225D3F8A800570498 /* HoresInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82D5E125D3F8A800570498 /* HoresInfoViewController.swift */; };
+		3A8B687125D96400003A3C87 /* GoogleService-Info  plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A8B687025D96400003A3C87 /* GoogleService-Info  plist */; };
+		3A8B687D25D99957003A3C87 /* mainAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B687C25D99957003A3C87 /* mainAPI.swift */; };
+		3A8B688025D999D7003A3C87 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B687F25D999D7003A3C87 /* ImageUploader.swift */; };
+		3A8B688325D99AA7003A3C87 /* AuthUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B688225D99AA7003A3C87 /* AuthUser.swift */; };
+		3A8B688625D99DF0003A3C87 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B688525D99DF0003A3C87 /* User.swift */; };
+		3A8B715A259B69CA00B7C21E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B7159259B69CA00B7C21E /* CalendarViewController.swift */; };
+		3A8B715E259B6F1300B7C21E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8B715D259B6F1300B7C21E /* AddViewController.swift */; };
+		3AD6C05B261DD122007F1BCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C05A261DD122007F1BCF /* ContentView.swift */; };
+		3AD6C060261DD14A007F1BCF /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C05F261DD14A007F1BCF /* StartView.swift */; };
+		3AD6C065261DD177007F1BCF /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C064261DD177007F1BCF /* WorkoutView.swift */; };
+		3AD6C06A261DD19F007F1BCF /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C069261DD19F007F1BCF /* PagingView.swift */; };
+		3AD6C06F261DD1D4007F1BCF /* MenuStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C06E261DD1D4007F1BCF /* MenuStyle.swift */; };
+		3AD6C074261DD22A007F1BCF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C073261DD22A007F1BCF /* MenuView.swift */; };
+		3AD6C079261DD26A007F1BCF /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C078261DD26A007F1BCF /* WorkoutManager.swift */; };
+		3AD6C086261DD42B007F1BCF /* RunStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD6C085261DD42B007F1BCF /* RunStyle.swift */; };
+		3AD6C08B261DD5AD007F1BCF /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD6C08A261DD5AC007F1BCF /* HealthKit.framework */; };
+		3AF8A62F25E64EB600D73577 /* ReminderStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8A62E25E64EB600D73577 /* ReminderStoryboard.storyboard */; };
+		3AF8A63225E64EED00D73577 /* SocialMediaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8A63125E64EED00D73577 /* SocialMediaStoryboard.storyboard */; };
+		3AF8A63525E64F1E00D73577 /* ProfilesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8A63425E64F1E00D73577 /* ProfilesStoryboard.storyboard */; };
+		6E365F383636FA0AAEFF54CB /* Pods_Bagual_Rider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226B9D4AEC912B2F16E0FE7C /* Pods_Bagual_Rider.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A8101552619C8DD001E9A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18888DB71E7F0FA80038A3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A8101522619C8DD001E9A65;
+			remoteInfo = "BagualWatch Extension";
+		};
+		3A8101642619C8E0001E9A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18888DB71E7F0FA80038A3AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A8101462619C8D6001E9A65;
+			remoteInfo = BagualWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3A8101672619C8E0001E9A65 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3A8101662619C8E0001E9A65 /* BagualWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A81016A2619C8E0001E9A65 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3A8101542619C8DD001E9A65 /* BagualWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0008E76D65382082577ED8BB /* Pods-Bagual Rider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bagual Rider.release.xcconfig"; path = "Target Support Files/Pods-Bagual Rider/Pods-Bagual Rider.release.xcconfig"; sourceTree = "<group>"; };
+		180924811EF33DE2007CF38F /* MulticolorPolyline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulticolorPolyline.swift; sourceTree = "<group>"; };
+		18350CE71E882A860054E1C6 /* StoryboardSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardSupport.swift; sourceTree = "<group>"; };
+		187AF99C1EF2F78500C2B8E7 /* UnitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitExtensions.swift; sourceTree = "<group>"; };
+		187AF9A61EF2FC1200C2B8E7 /* FormatDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDisplay.swift; sourceTree = "<group>"; };
+		187AF9A81EF3170700C2B8E7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		18888DBF1E7F0FA80038A3AF /* Bagual Rider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bagual Rider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18888DC21E7F0FA80038A3AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18888DC71E7F0FA80038A3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18888DCA1E7F0FA80038A3AF /* MoonRunner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoonRunner.xcdatamodel; sourceTree = "<group>"; };
+		18888DCC1E7F0FA80038A3AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18888DCF1E7F0FA80038A3AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18888DD11E7F0FA80038A3AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18888DD81E7F1D940038A3AF /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		18CF26E91E80265F0097F88C /* badges.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badges.txt; sourceTree = "<group>"; };
+		18CF26EC1E80290C0097F88C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18CF26EE1E80291E0097F88C /* NewRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRunViewController.swift; sourceTree = "<group>"; };
+		18CF26F01E80292C0097F88C /* RunDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunDetailsViewController.swift; sourceTree = "<group>"; };
+		226B9D4AEC912B2F16E0FE7C /* Pods_Bagual_Rider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bagual_Rider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A099CF025B9BE60008530AE /* MapRun.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapRun.storyboard; sourceTree = "<group>"; };
+		3A2378D725A4972200D48F44 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A2F308025C6F5C0009EB948 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3A4DBD9725DD4F5C004BD0DE /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
+		3A4DBD9A25DD4F90004BD0DE /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		3A507FFF25C92F630094A501 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3A50800125C92F8F0094A501 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3A50800725C94A350094A501 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		3A622B2E25A45FEC006FDEDE /* VViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VViewController.swift; sourceTree = "<group>"; };
+		3A622B3125A46381006FDEDE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3A622B3425A463E7006FDEDE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3A622B3725A46462006FDEDE /* HomeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeeViewController.swift; sourceTree = "<group>"; };
+		3A622B4225A48B86006FDEDE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3A7B418F2612FB9F00E5FA90 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		3A7B41932612FF0E00E5FA90 /* RollnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollnViewController.swift; sourceTree = "<group>"; };
+		3A7B41972612FF8300E5FA90 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3A7B419B2612FFEC00E5FA90 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		3A7B419E2613008100E5FA90 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		3A7B41A32613013400E5FA90 /* newconverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newconverViewController.swift; sourceTree = "<group>"; };
+		3A7B41A72613018B00E5FA90 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		3A8101472619C8D6001E9A65 /* BagualWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BagualWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A81014A2619C8D6001E9A65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		3A81014C2619C8DD001E9A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A81014E2619C8DD001E9A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8101532619C8DD001E9A65 /* BagualWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BagualWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8101582619C8DD001E9A65 /* SpeedySlothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedySlothApp.swift; sourceTree = "<group>"; };
+		3A81015A2619C8DD001E9A65 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		3A81015C2619C8DD001E9A65 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3A81015E2619C8DD001E9A65 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3A8101602619C8E0001E9A65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A8101622619C8E0001E9A65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8101632619C8E0001E9A65 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3A82D5E125D3F8A800570498 /* HoresInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoresInfoViewController.swift; sourceTree = "<group>"; };
+		3A8B687025D96400003A3C87 /* GoogleService-Info  plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "GoogleService-Info  plist"; sourceTree = "<group>"; };
+		3A8B687C25D99957003A3C87 /* mainAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainAPI.swift; sourceTree = "<group>"; };
+		3A8B687F25D999D7003A3C87 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		3A8B688225D99AA7003A3C87 /* AuthUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUser.swift; sourceTree = "<group>"; };
+		3A8B688525D99DF0003A3C87 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3A8B7159259B69CA00B7C21E /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		3A8B715D259B6F1300B7C21E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3AC1C7AA25A6FC0200C80547 /* Bagual Rider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bagual Rider.entitlements"; sourceTree = SOURCE_ROOT; };
+		3AD6C05A261DD122007F1BCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AD6C05F261DD14A007F1BCF /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		3AD6C064261DD177007F1BCF /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		3AD6C069261DD19F007F1BCF /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		3AD6C06E261DD1D4007F1BCF /* MenuStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStyle.swift; sourceTree = "<group>"; };
+		3AD6C073261DD22A007F1BCF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		3AD6C078261DD26A007F1BCF /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		3AD6C085261DD42B007F1BCF /* RunStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunStyle.swift; sourceTree = "<group>"; };
+		3AD6C08A261DD5AC007F1BCF /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		3AF8A62E25E64EB600D73577 /* ReminderStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReminderStoryboard.storyboard; sourceTree = "<group>"; };
+		3AF8A63125E64EED00D73577 /* SocialMediaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SocialMediaStoryboard.storyboard; sourceTree = "<group>"; };
+		3AF8A63425E64F1E00D73577 /* ProfilesStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfilesStoryboard.storyboard; sourceTree = "<group>"; };
+		50D5A17384D1A247B92CFB8E /* Pods-Bagual Rider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bagual Rider.debug.xcconfig"; path = "Target Support Files/Pods-Bagual Rider/Pods-Bagual Rider.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18888DBC1E7F0FA80038A3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A50800225C92F8F0094A501 /* MapKit.framework in Frameworks */,
+				3A50800025C92F630094A501 /* CoreLocation.framework in Frameworks */,
+				6E365F383636FA0AAEFF54CB /* Pods_Bagual_Rider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8101502619C8DD001E9A65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD6C08B261DD5AD007F1BCF /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50FB48BF011EBAC98E228531 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18888DB61E7F0FA80038A3AF = {
+			isa = PBXGroup;
+			children = (
+				3A8B687025D96400003A3C87 /* GoogleService-Info  plist */,
+				18888DC11E7F0FA80038A3AF /* Bagual Rider */,
+				3A8101482619C8D6001E9A65 /* BagualWatch */,
+				3A8101572619C8DD001E9A65 /* BagualWatch Extension */,
+				18888DC01E7F0FA80038A3AF /* Products */,
+				FA3D4F2EC0DFD1DA288AA5CA /* Pods */,
+				E0C190BD42542AD2CBCBB584 /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		18888DC01E7F0FA80038A3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18888DBF1E7F0FA80038A3AF /* Bagual Rider.app */,
+				3A8101472619C8D6001E9A65 /* BagualWatch.app */,
+				3A8101532619C8DD001E9A65 /* BagualWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18888DC11E7F0FA80038A3AF /* Bagual Rider */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B418D2612FA4000E5FA90 /* Resources */,
+				3A7B418B2612F9FC00E5FA90 /* VM */,
+				3A7B41872612F96C00E5FA90 /* mood */,
+				3A8B687B25D99907003A3C87 /* ABI */,
+				3AC1C7AA25A6FC0200C80547 /* Bagual Rider.entitlements */,
+				3A622B3A25A47B36006FDEDE /* Helpers */,
+				3A099CEF25B9BDCF008530AE /* project Storyboard */,
+				18CF26E81E8021390097F88C /*  Assets */,
+				18CF26EB1E8028D40097F88C /* View Controllers */,
+				18888DDB1E80200C0038A3AF /* CoreData */,
+				18888DDA1E801FFB0038A3AF /* Supporting Files */,
+			);
+			name = "Bagual Rider";
+			path = MoonRunner;
+			sourceTree = "<group>";
+		};
+		18888DDA1E801FFB0038A3AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18888DD11E7F0FA80038A3AF /* Info.plist */,
+				18CF26E91E80265F0097F88C /* badges.txt */,
+				18350CE71E882A860054E1C6 /* StoryboardSupport.swift */,
+				187AF99C1EF2F78500C2B8E7 /* UnitExtensions.swift */,
+				187AF9A61EF2FC1200C2B8E7 /* FormatDisplay.swift */,
+				187AF9A81EF3170700C2B8E7 /* LocationManager.swift */,
+				180924811EF33DE2007CF38F /* MulticolorPolyline.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18888DDB1E80200C0038A3AF /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				18888DD81E7F1D940038A3AF /* CoreDataStack.swift */,
+				18888DC91E7F0FA80038A3AF /* MoonRunner.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		18CF26E81E8021390097F88C /*  Assets */ = {
+			isa = PBXGroup;
+			children = (
+				18888DCC1E7F0FA80038A3AF /* Assets.xcassets */,
+				3A622B4225A48B86006FDEDE /* GoogleService-Info.plist */,
+			);
+			name = " Assets";
+			sourceTree = "<group>";
+		};
+		18CF26EB1E8028D40097F88C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B41A22613009A00E5FA90 /* Satis */,
+				18CF26EC1E80290C0097F88C /* HomeViewController.swift */,
+				3A82D5E125D3F8A800570498 /* HoresInfoViewController.swift */,
+				3A50800725C94A350094A501 /* SocialViewController.swift */,
+				3A8B7159259B69CA00B7C21E /* CalendarViewController.swift */,
+				3A4DBD9725DD4F5C004BD0DE /* ViewViewController.swift */,
+				3A8B715D259B6F1300B7C21E /* AddViewController.swift */,
+				3A622B2E25A45FEC006FDEDE /* VViewController.swift */,
+				3A4DBD9A25DD4F90004BD0DE /* EntryViewController.swift */,
+				3A622B3425A463E7006FDEDE /* LoginViewController.swift */,
+				3A622B3125A46381006FDEDE /* SignUpViewController.swift */,
+				3A622B3725A46462006FDEDE /* HomeeViewController.swift */,
+				18CF26EE1E80291E0097F88C /* NewRunViewController.swift */,
+				18CF26F01E80292C0097F88C /* RunDetailsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3A099CEF25B9BDCF008530AE /* project Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				18888DC61E7F0FA80038A3AF /* Main.storyboard */,
+				3A099CF025B9BE60008530AE /* MapRun.storyboard */,
+				3AF8A62E25E64EB600D73577 /* ReminderStoryboard.storyboard */,
+				3AF8A63125E64EED00D73577 /* SocialMediaStoryboard.storyboard */,
+				3AF8A63425E64F1E00D73577 /* ProfilesStoryboard.storyboard */,
+				18888DCE1E7F0FA80038A3AF /* LaunchScreen.storyboard */,
+			);
+			path = "project Storyboard";
+			sourceTree = "<group>";
+		};
+		3A622B3A25A47B36006FDEDE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A2F308025C6F5C0009EB948 /* Utilities.swift */,
+				3A2378D725A4972200D48F44 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3A7B41872612F96C00E5FA90 /* mood */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mood;
+			sourceTree = "<group>";
+		};
+		3A7B418B2612F9FC00E5FA90 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		3A7B418D2612FA4000E5FA90 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18888DC21E7F0FA80038A3AF /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A7B41A22613009A00E5FA90 /* Satis */ = {
+			isa = PBXGroup;
+			children = (
+				3A7B41932612FF0E00E5FA90 /* RollnViewController.swift */,
+				3A7B41A72613018B00E5FA90 /* UserViewController.swift */,
+				3A7B419E2613008100E5FA90 /* VideoPlayerViewController.swift */,
+				3A7B41A32613013400E5FA90 /* newconverViewController.swift */,
+				3A7B41972612FF8300E5FA90 /* RegisterViewController.swift */,
+				3A7B418F2612FB9F00E5FA90 /* ConversationViewController.swift */,
+				3A7B419B2612FFEC00E5FA90 /* PhotoViewerViewController.swift */,
+			);
+			path = Satis;
+			sourceTree = "<group>";
+		};
+		3A8101482619C8D6001E9A65 /* BagualWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3A8101492619C8D6001E9A65 /* Interface.storyboard */,
+				3A81014C2619C8DD001E9A65 /* Assets.xcassets */,
+				3A81014E2619C8DD001E9A65 /* Info.plist */,
+			);
+			path = BagualWatch;
+			sourceTree = "<group>";
+		};
+		3A8101572619C8DD001E9A65 /* BagualWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3AD6C050261DD005007F1BCF /* interfaceControllers */,
+				3A81015A2619C8DD001E9A65 /* ExtensionDelegate.swift */,
+				3A81015C2619C8DD001E9A65 /* NotificationController.swift */,
+				3A81015E2619C8DD001E9A65 /* ComplicationController.swift */,
+				3A8101602619C8E0001E9A65 /* Assets.xcassets */,
+				3A8101622619C8E0001E9A65 /* Info.plist */,
+				3A8101632619C8E0001E9A65 /* PushNotificationPayload.apns */,
+			);
+			path = "BagualWatch Extension";
+			sourceTree = "<group>";
+		};
+		3A8B687B25D99907003A3C87 /* ABI */ = {
+			isa = PBXGroup;
+			children = (
+				3A8B687C25D99957003A3C87 /* mainAPI.swift */,
+				3A8B687F25D999D7003A3C87 /* ImageUploader.swift */,
+				3A8B688225D99AA7003A3C87 /* AuthUser.swift */,
+				3A8B688525D99DF0003A3C87 /* User.swift */,
+			);
+			path = ABI;
+			sourceTree = "<group>";
+		};
+		3AD6C050261DD005007F1BCF /* interfaceControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A8101582619C8DD001E9A65 /* SpeedySlothApp.swift */,
+				3AD6C064261DD177007F1BCF /* WorkoutView.swift */,
+				3AD6C078261DD26A007F1BCF /* WorkoutManager.swift */,
+				3AD6C06E261DD1D4007F1BCF /* MenuStyle.swift */,
+				3AD6C073261DD22A007F1BCF /* MenuView.swift */,
+				3AD6C069261DD19F007F1BCF /* PagingView.swift */,
+				3AD6C085261DD42B007F1BCF /* RunStyle.swift */,
+				3AD6C05F261DD14A007F1BCF /* StartView.swift */,
+				3AD6C05A261DD122007F1BCF /* ContentView.swift */,
+			);
+			path = interfaceControllers;
+			sourceTree = "<group>";
+		};
+		E0C190BD42542AD2CBCBB584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AD6C08A261DD5AC007F1BCF /* HealthKit.framework */,
+				3A50800125C92F8F0094A501 /* MapKit.framework */,
+				3A507FFF25C92F630094A501 /* CoreLocation.framework */,
+				226B9D4AEC912B2F16E0FE7C /* Pods_Bagual_Rider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3D4F2EC0DFD1DA288AA5CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50D5A17384D1A247B92CFB8E /* Pods-Bagual Rider.debug.xcconfig */,
+				0008E76D65382082577ED8BB /* Pods-Bagual Rider.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18888DBE1E7F0FA80038A3AF /* Bagual Rider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18888DD41E7F0FA80038A3AF /* Build configuration list for PBXNativeTarget "Bagual Rider" */;
+			buildPhases = (
+				2188800CD845D90959C3AFC8 /* [CP] Check Pods Manifest.lock */,
+				18888DBB1E7F0FA80038A3AF /* Sources */,
+				18888DBC1E7F0FA80038A3AF /* Frameworks */,
+				18888DBD1E7F0FA80038A3AF /* Resources */,
+				16221AA5969BE7095404488C /* [CP] Embed Pods Frameworks */,
+				251AEF052DC6F9737D10CBA7 /* [CP] Copy Pods Resources */,
+				3A8101672619C8E0001E9A65 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8101652619C8E0001E9A65 /* PBXTargetDependency */,
+			);
+			name = "Bagual Rider";
+			productName = MoonRunner;
+			productReference = 18888DBF1E7F0FA80038A3AF /* Bagual Rider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A8101462619C8D6001E9A65 /* BagualWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A81016E2619C8E1001E9A65 /* Build configuration list for PBXNativeTarget "BagualWatch" */;
+			buildPhases = (
+				3A8101452619C8D6001E9A65 /* Resources */,
+				3A81016A2619C8E0001E9A65 /* Embed App Extensions */,
+				50FB48BF011EBAC98E228531 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A8101562619C8DD001E9A65 /* PBXTargetDependency */,
+			);
+			name = BagualWatch;
+			productName = BagualWatch;
+			productReference = 3A8101472619C8D6001E9A65 /* BagualWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3A8101522619C8DD001E9A65 /* BagualWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A81016D2619C8E1001E9A65 /* Build configuration list for PBXNativeTarget "BagualWatch Extension" */;
+			buildPhases = (
+				3A81014F2619C8DD001E9A65 /* Sources */,
+				3A8101502619C8DD001E9A65 /* Frameworks */,
+				3A8101512619C8DD001E9A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BagualWatch Extension";
+			productName = "BagualWatch Extension";
+			productReference = 3A8101532619C8DD001E9A65 /* BagualWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18888DB71E7F0FA80038A3AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Richard Critz";
+				TargetAttributes = {
+					18888DBE1E7F0FA80038A3AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7AFZKP3TT6;
+						LastSwiftMigration = 1230;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					3A8101462619C8D6001E9A65 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = 7AFZKP3TT6;
+						ProvisioningStyle = Automatic;
+					};
+					3A8101522619C8DD001E9A65 = {
+						CreatedOnToolsVersion = 12.4;
+						DevelopmentTeam = 7AFZKP3TT6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18888DBA1E7F0FA80038A3AF /* Build configuration list for PBXProject "Bagual Rider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18888DB61E7F0FA80038A3AF;
+			productRefGroup = 18888DC01E7F0FA80038A3AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18888DBE1E7F0FA80038A3AF /* Bagual Rider */,
+				3A8101462619C8D6001E9A65 /* BagualWatch */,
+				3A8101522619C8DD001E9A65 /* BagualWatch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18888DBD1E7F0FA80038A3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18888DD01E7F0FA80038A3AF /* LaunchScreen.storyboard in Resources */,
+				18888DCD1E7F0FA80038A3AF /* Assets.xcassets in Resources */,
+				3A622B4325A48B86006FDEDE /* GoogleService-Info.plist in Resources */,
+				3A099CF125B9BE60008530AE /* MapRun.storyboard in Resources */,
+				18CF26EA1E80265F0097F88C /* badges.txt in Resources */,
+				18888DC81E7F0FA80038A3AF /* Main.storyboard in Resources */,
+				3A8B687125D96400003A3C87 /* GoogleService-Info  plist in Resources */,
+				3AF8A63525E64F1E00D73577 /* ProfilesStoryboard.storyboard in Resources */,
+				3AF8A63225E64EED00D73577 /* SocialMediaStoryboard.storyboard in Resources */,
+				3AF8A62F25E64EB600D73577 /* ReminderStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8101452619C8D6001E9A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A81014D2619C8DD001E9A65 /* Assets.xcassets in Resources */,
+				3A81014B2619C8D6001E9A65 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8101512619C8DD001E9A65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8101612619C8E0001E9A65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16221AA5969BE7095404488C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bagual Rider/Pods-Bagual Rider-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InputBarAccessoryView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bagual Rider/Pods-Bagual Rider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2188800CD845D90959C3AFC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bagual Rider-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		251AEF052DC6F9737D10CBA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bagual Rider/Pods-Bagual Rider-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bagual Rider/Pods-Bagual Rider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18888DBB1E7F0FA80038A3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8B715A259B69CA00B7C21E /* CalendarViewController.swift in Sources */,
+				3A2378D825A4972200D48F44 /* Constants.swift in Sources */,
+				18CF26EF1E80291E0097F88C /* NewRunViewController.swift in Sources */,
+				3A8B688625D99DF0003A3C87 /* User.swift in Sources */,
+				18888DD91E7F1D940038A3AF /* CoreDataStack.swift in Sources */,
+				3A7B41A82613018B00E5FA90 /* UserViewController.swift in Sources */,
+				3A4DBD9B25DD4F90004BD0DE /* EntryViewController.swift in Sources */,
+				187AF9A91EF3170700C2B8E7 /* LocationManager.swift in Sources */,
+				18888DCB1E7F0FA80038A3AF /* MoonRunner.xcdatamodeld in Sources */,
+				3A622B2F25A45FEC006FDEDE /* VViewController.swift in Sources */,
+				18CF26F11E80292C0097F88C /* RunDetailsViewController.swift in Sources */,
+				180924821EF33DE2007CF38F /* MulticolorPolyline.swift in Sources */,
+				3A8B687D25D99957003A3C87 /* mainAPI.swift in Sources */,
+				3A8B688325D99AA7003A3C87 /* AuthUser.swift in Sources */,
+				18888DC31E7F0FA80038A3AF /* AppDelegate.swift in Sources */,
+				3A7B41902612FB9F00E5FA90 /* ConversationViewController.swift in Sources */,
+				3A622B3825A46462006FDEDE /* HomeeViewController.swift in Sources */,
+				3A82D5E225D3F8A800570498 /* HoresInfoViewController.swift in Sources */,
+				3A7B41A42613013400E5FA90 /* newconverViewController.swift in Sources */,
+				3A8B688025D999D7003A3C87 /* ImageUploader.swift in Sources */,
+				3A622B3225A46381006FDEDE /* SignUpViewController.swift in Sources */,
+				18CF26ED1E80290C0097F88C /* HomeViewController.swift in Sources */,
+				187AF9A71EF2FC1200C2B8E7 /* FormatDisplay.swift in Sources */,
+				3A7B419C2612FFEC00E5FA90 /* PhotoViewerViewController.swift in Sources */,
+				3A7B41982612FF8300E5FA90 /* RegisterViewController.swift in Sources */,
+				3A4DBD9825DD4F5C004BD0DE /* ViewViewController.swift in Sources */,
+				3A622B3525A463E7006FDEDE /* LoginViewController.swift in Sources */,
+				3A50800825C94A350094A501 /* SocialViewController.swift in Sources */,
+				18350CE81E882A860054E1C6 /* StoryboardSupport.swift in Sources */,
+				3A8B715E259B6F1300B7C21E /* AddViewController.swift in Sources */,
+				3A2F308125C6F5C0009EB948 /* Utilities.swift in Sources */,
+				3A7B419F2613008100E5FA90 /* VideoPlayerViewController.swift in Sources */,
+				3A7B41942612FF0E00E5FA90 /* RollnViewController.swift in Sources */,
+				187AF99D1EF2F78500C2B8E7 /* UnitExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A81014F2619C8DD001E9A65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD6C065261DD177007F1BCF /* WorkoutView.swift in Sources */,
+				3A81015D2619C8DD001E9A65 /* NotificationController.swift in Sources */,
+				3AD6C05B261DD122007F1BCF /* ContentView.swift in Sources */,
+				3AD6C086261DD42B007F1BCF /* RunStyle.swift in Sources */,
+				3A81015F2619C8DD001E9A65 /* ComplicationController.swift in Sources */,
+				3AD6C079261DD26A007F1BCF /* WorkoutManager.swift in Sources */,
+				3AD6C06A261DD19F007F1BCF /* PagingView.swift in Sources */,
+				3AD6C074261DD22A007F1BCF /* MenuView.swift in Sources */,
+				3AD6C060261DD14A007F1BCF /* StartView.swift in Sources */,
+				3A81015B2619C8DD001E9A65 /* ExtensionDelegate.swift in Sources */,
+				3A8101592619C8DD001E9A65 /* SpeedySlothApp.swift in Sources */,
+				3AD6C06F261DD1D4007F1BCF /* MenuStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A8101562619C8DD001E9A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A8101522619C8DD001E9A65 /* BagualWatch Extension */;
+			targetProxy = 3A8101552619C8DD001E9A65 /* PBXContainerItemProxy */;
+		};
+		3A8101652619C8E0001E9A65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A8101462619C8D6001E9A65 /* BagualWatch */;
+			targetProxy = 3A8101642619C8E0001E9A65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18888DC61E7F0FA80038A3AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18888DC71E7F0FA80038A3AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18888DCE1E7F0FA80038A3AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18888DCF1E7F0FA80038A3AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3A8101492619C8D6001E9A65 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A81014A2619C8D6001E9A65 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18888DD21E7F0FA80038A3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18888DD31E7F0FA80038A3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18888DD51E7F0FA80038A3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D5A17384D1A247B92CFB8E /* Pods-Bagual Rider.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bagual Rider.entitlements";
+				DEVELOPMENT_TEAM = 7AFZKP3TT6;
+				INFOPLIST_FILE = MoonRunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TARABOT-INTERNATIONAL-LLC.Bagual-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18888DD61E7F0FA80038A3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0008E76D65382082577ED8BB /* Pods-Bagual Rider.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bagual Rider.entitlements";
+				DEVELOPMENT_TEAM = 7AFZKP3TT6;
+				INFOPLIST_FILE = MoonRunner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TARABOT-INTERNATIONAL-LLC.Bagual-Rider";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ENABLE_BATCH_MODE = NO;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A8101682619C8E0001E9A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFZKP3TT6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = BagualWatch_Extension;
+				INFOPLIST_FILE = BagualWatch/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TARABOT-INTERNATIONAL-LLC.Bagual-Rider.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3A8101692619C8E0001E9A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFZKP3TT6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IBSC_MODULE = BagualWatch_Extension;
+				INFOPLIST_FILE = BagualWatch/Info.plist;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TARABOT-INTERNATIONAL-LLC.Bagual-Rider.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		3A81016B2619C8E0001E9A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFZKP3TT6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "BagualWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TARABOT-INTERNATIONAL-LLC.Bagual-Rider.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3A81016C2619C8E0001E9A65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AFZKP3TT6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "BagualWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.TARABOT-INTERNATIONAL-LLC.Bagual-Rider.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18888DBA1E7F0FA80038A3AF /* Build configuration list for PBXProject "Bagual Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18888DD21E7F0FA80038A3AF /* Debug */,
+				18888DD31E7F0FA80038A3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18888DD41E7F0FA80038A3AF /* Build configuration list for PBXNativeTarget "Bagual Rider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18888DD51E7F0FA80038A3AF /* Debug */,
+				18888DD61E7F0FA80038A3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A81016D2619C8E1001E9A65 /* Build configuration list for PBXNativeTarget "BagualWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A81016B2619C8E0001E9A65 /* Debug */,
+				3A81016C2619C8E0001E9A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A81016E2619C8E1001E9A65 /* Build configuration list for PBXNativeTarget "BagualWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8101682619C8E0001E9A65 /* Debug */,
+				3A8101692619C8E0001E9A65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18888DC91E7F0FA80038A3AF /* MoonRunner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18888DCA1E7F0FA80038A3AF /* MoonRunner.xcdatamodel */,
+			);
+			currentVersion = 18888DCA1E7F0FA80038A3AF /* MoonRunner.xcdatamodel */;
+			path = MoonRunner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18888DB71E7F0FA80038A3AF /* Project object */;
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>198638159475-r4mastke5s8sdrdmggmn4o76mo2lgevl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.198638159475-r4mastke5s8sdrdmggmn4o76mo2lgevl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD9Mh1Yqzxot17emJj3T2LAU8pMl0QSXWM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>198638159475</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.TARABOT-INTERNATIONAL-LLC.Bagual-Rider</string>
+	<key>PROJECT_ID</key>
+	<string>bagual-rider</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bagual-rider.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:198638159475:ios:a4b84dfe7deb87135c4c06</string>
+</dict>
+</plist>
